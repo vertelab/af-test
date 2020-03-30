@@ -8,8 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-from datetime import datetime
-from datetime import timedelta
+from datetime import datetime, timedelta
 from faker import Faker
 
 # Slumpar dag
@@ -26,6 +25,9 @@ wait = WebDriverWait(browser, 20)
 user_name = "demo"
 password = "demo"
 kontakt = "Admin"
+
+# Startar timer
+start = time.time()
 
 # Går in på databasen AFtema och loggar in
 browser.get('https://fossa.vertel.se//web?db=AFtema')
@@ -90,5 +92,15 @@ element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='dropdown
 element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu='logout']"))).click()
 print('Loggar ut')
 
+# Avslutar timer
+end = time.time()
+
+test_tid = end - start
+
+print("Testtid: %s" % test_tid)
+
 # Stänger
 browser.close()
+
+
+
