@@ -1,2 +1,6 @@
 # af-test
-Samling av test för Arbetsförmedlingen
+Samling av test.
+
+Installera Selenium: pip install selenium
+Installera Faker: pip install Faker
+
