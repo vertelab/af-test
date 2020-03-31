@@ -3,7 +3,6 @@
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-# from xvfbwrapper import Xvfb
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -18,10 +17,6 @@ faker = Faker()
 date = faker.future_datetime(end_date='+30d', tzinfo=None)
 day = date.strftime("%Y-%m-%d %H:%M:%S")
 
-# Startar wrapper
-# vdisplay = Xvfb()
-# vdisplay.start()
-
 # Startar webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
@@ -30,6 +25,7 @@ chrome_options.add_argument("--disable-infobars")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--disable-gpu")
 browser = webdriver.Chrome(chrome_options=chrome_options)
+
 # browser.maximize_window()
 wait = WebDriverWait(browser, 30)
 
@@ -119,9 +115,6 @@ print("Testtid: %s" % test_tid)
 
 # Stänger
 browser.close()
-
-# Avslutar wrapper
-# vdisplay.stop()
 
 
 
