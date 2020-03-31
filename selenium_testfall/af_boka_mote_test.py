@@ -2,6 +2,8 @@
 # coding: utf-8
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import os
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -17,7 +19,9 @@ date = faker.future_datetime(end_date='+30d', tzinfo=None)
 day = date.strftime("%Y-%m-%d %H:%M:%S")
 
 # Startar webdriver
-browser = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+browser = webdriver.Chrome(chrome_options=chrome_options)
 browser.maximize_window()
 wait = WebDriverWait(browser, 20)
 
