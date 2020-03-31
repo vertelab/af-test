@@ -1,5 +1,6 @@
 # af-test
 **Installation local** <br/>
+sudo apt-get -y install google-chrome-stable <br/>
 pip install selenium <br/>
 pip install Faker <br/>
 Put webdriver in PATH <br/>
