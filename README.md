@@ -1,10 +1,12 @@
 # af-test
 Installation local
+
 pip install selenium
 Installera Faker: pip install Faker
 Put webdriver in PATH
 
 Installation on Linux VM
+
 sudo apt-get update
 sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
 sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
