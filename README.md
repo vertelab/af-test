@@ -1,7 +1,7 @@
 # af-test
 **Installation local** <br/>
 pip install selenium <br/>
-Installera Faker: pip install Faker <br/>
+pip install Faker <br/>
 Put webdriver in PATH <br/>
 <br/>
 **Installation on Linux VM** <br/>
