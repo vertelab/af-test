@@ -19,7 +19,7 @@ date = faker.future_datetime(end_date='+30d', tzinfo=None)
 day = date.strftime("%Y-%m-%d %H:%M:%S")
 
 # Startar webdriver
-chrome_options = Options()
+chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-infobars")
