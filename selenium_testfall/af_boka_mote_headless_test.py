@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
 
+from pyvirtualdisplay import Display
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
@@ -18,14 +19,19 @@ faker = Faker()
 date = faker.future_datetime(end_date='+30d', tzinfo=None)
 day = date.strftime("%Y-%m-%d %H:%M:%S")
 
+# Startar virtual display
+display = Display(visible=0, size=(800, 600))
+display.start()
+
 # Startar webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-infobars")
 chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--disable-gpu")
 browser = webdriver.Chrome(chrome_options=chrome_options)
-browser.maximize_window()
+# browser.maximize_window()
 wait = WebDriverWait(browser, 30)
 
 # Credentials
