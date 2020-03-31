@@ -22,9 +22,11 @@ day = date.strftime("%Y-%m-%d %H:%M:%S")
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-infobars")
+chrome_options.add_argument("--disable-dev-shm-usage")
 browser = webdriver.Chrome(chrome_options=chrome_options)
 browser.maximize_window()
-wait = WebDriverWait(browser, 20)
+wait = WebDriverWait(browser, 30)
 
 # Credentials
 user_name = "demo"
