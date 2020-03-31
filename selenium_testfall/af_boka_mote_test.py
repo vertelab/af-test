@@ -20,7 +20,6 @@ day = date.strftime("%Y-%m-%d %H:%M:%S")
 
 # Startar webdriver
 chrome_options = Options()
-chrome_options.add_argument("--headless")
 browser = webdriver.Chrome(chrome_options=chrome_options)
 browser.maximize_window()
 wait = WebDriverWait(browser, 20)
