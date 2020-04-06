@@ -18,9 +18,9 @@ browser.maximize_window()
 wait = WebDriverWait(browser, 20)
 
 # Credentials
-db = "http://odoo12:8069///web?db=AFtest"
-user_name = "admin"
-password = "admin"
+user_name = "demo"
+password = "demo"
+db = 'https://fossa.vertel.se//web?db=ACRMTEST3'
 
 # Startar timer
 start = time.time()
@@ -39,11 +39,22 @@ print('Aktiverar utvecklingsläge')
 wait.until(EC.element_to_be_clickable((By.XPATH, "//span[@class='oe_topbar_name']"))).click()
 wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu='debug']"))).click()
 
-# Går till databas struktur Fields project.agile.jira.config
-print('Går till databas struktur Fields project.agile.jira.config')
-browser.get('http://odoo12:8069/web?debug=1#id=4454&action=16&model=ir.model.fields&view_type=form&menu_id=4')
+# Går in på inställningar
+print('Går in på inställningar')
+wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='full']"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu-xmlid='base.menu_administration']"))).click()
 
-# # Går in på flik Mapping
+# Går in på inställningar
+print('Går in på inställningar')
+wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-display='static']"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu-xmlid='base.menu_administration']"))).click()
+
+
+# Går till databas struktur Fields calendar.contacts
+# print('Går till databas struktur Fields calendar.contacts')
+# browser.get('http://192.168.122.11:8069/web?debug=true#action=16&model=ir.model.fields&view_type=list&menu_id=4')
+
+# Går in på flik Mapping
 print('Går in på flik Mapping')
 wait.until(EC.element_to_be_clickable((By.XPATH, "//a[text()='Mapping']"))).click()
 
@@ -51,7 +62,7 @@ wait.until(EC.element_to_be_clickable((By.XPATH, "//a[text()='Mapping']"))).clic
 print('Trycker på redigera knapp')
 wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn btn-primary o_form_button_edit']"))).click()
 
-# # Väljer hur länge mötet är
+# Fyller i fält
 print('Fyller i fält')
 element = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@name='map_system']")))
 element.clear()
@@ -69,24 +80,24 @@ element = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@name='map_c
 element.clear()
 element.send_keys("Automatiskt testfall")
 
-# Sparar
-print('Sparar')
-wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn btn-primary o_form_button_save']"))).click()
+# # Sparar
+# print('Sparar')
+# wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@class='btn btn-primary o_form_button_save']"))).click()
 
-# Loggar ut
-element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='dropdown-toggle']"))).click()
-element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu='logout']"))).click()
-print('Loggar ut')
+# # Loggar ut
+# element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='dropdown-toggle']"))).click()
+# element = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@data-menu='logout']"))).click()
+# print('Loggar ut')
 
-# Avslutar timer
-end = time.time()
+# # Avslutar timer
+# end = time.time()
 
-test_tid = end - start
+# test_tid = end - start
 
-print("Testtid: %s" % test_tid)
+# print("Testtid: %s" % test_tid)
 
-# Stänger
-browser.close()
+# # Stänger
+# browser.close()
 
 
 
