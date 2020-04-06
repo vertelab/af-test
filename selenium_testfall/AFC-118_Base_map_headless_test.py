@@ -31,12 +31,13 @@ start = time.time()
 
 # Går in på databasen AFtema och loggar in
 print('Loggar in')
-browser.get('https://fossa.vertel.se//web?db=ACRMTEST03')
+browser.get('https://fossa.vertel.se/web?db=ACRMTEST03')
 element = browser.find_element_by_id("login")
 element.send_keys(user_name)
 element = browser.find_element_by_id("password")
 element.send_keys(password)
 element.send_keys(Keys.RETURN)
+print('inloggad')
 
 # Aktiverar utvecklingsläge
 print('Aktiverar utvecklingsläge')
