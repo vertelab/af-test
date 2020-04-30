@@ -1,0 +1,27 @@
+1587467742299,210,193 /,200,OK,Thread Group 1-1,text,true,10832,1,1,96
+1587467742513,96,194 /web,200,OK,Thread Group 1-1,text,true,9856,1,1,34
+1587467742610,65,198 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,27420,1,1,61
+1587467742676,23,199 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-1,text,true,443,1,1,23
+1587467742700,16,169 /longpolling/poll,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,16
+1587467742717,22,200 /web/login,400,BAD REQUEST,Thread Group 1-1,text,false,318,1,1,22
+1587467742740,81,203 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,60081,1,1,76
+1587467742822,21,204 /web/dataset/call,404,NOT FOUND,Thread Group 1-1,text,false,838,1,1,21
+1587467742844,22,205 /web/webclient/translations,200,OK,Thread Group 1-1,text,true,1059,1,1,22
+1587467742866,23,207 /web/dataset/call_kw/ir.ui.menu/load_menus,404,NOT FOUND,Thread Group 1-1,text,false,838,1,1,23
+1587467742890,21,206 /mail/init_messaging,404,NOT FOUND,Thread Group 1-1,text,false,841,1,1,21
+1587467742912,21,209 /web/dataset/call_kw/res.users/read,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,21
+1587467742934,19,208 /web/image,404,NOT FOUND,Thread Group 1-1,text,false,404,1,1,19
+1587467742954,20,211 /web/dataset/call_kw/res.users/systray_get_activities,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,20
+1587467742975,20,212 /calendar/notify,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,20
+1587467742996,20,212 /web/action/load,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,20
+1587467743016,21,213 /web/dataset/call_kw/mail.message/load_views,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,21
+1587467743038,20,214 /web/dataset/call_kw/ir.filters/get_filters,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,20
+1587467743058,20,215 /web/dataset/call_kw/mail.message/message_fetch,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,20
+1587467743079,21,217 /web/action/load,404,NOT FOUND,Thread Group 1-1,text,false,838,1,1,21
+1587467743100,20,218 /web/dataset/call_kw/res.partner/load_views,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,20
+1587467743121,18,219 /web/dataset/search_read,404,NOT FOUND,Thread Group 1-1,text,false,838,1,1,18
+1587467743140,5945,216 /,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: push.services.mozilla.com:443 failed to respond,Thread Group 1-1,text,false,2183,1,1,0
+1587467749086,25,220 /web/dataset/search_read,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,25
+1587467742299,6790,183 /success.txt,,"Number of samples in transaction : 24, number of failing samples : 18",Thread Group 1-1,,false,125184,1,1,660
+1587467749116,24,210 /longpolling/poll,404,NOT FOUND,Thread Group 1-1,text,false,840,1,1,24
+1587467749116,24,210 /longpolling/poll,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 1-1,,false,840,1,1,24
