@@ -1,0 +1,29 @@
+1588921222635,189,277 /web/database/manager,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se: Name or service not known,Thread Group 1-1,text,false,2357,1,1,0
+1588921222858,1,279 /web,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222868,2,280 /web/login,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222874,0,281 /web/login,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222890,1,282 /web/webclient/qweb,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222893,11,283 /web/webclient/bootstrap_translations,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222907,20,285 /web/login,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222931,1,286 /web,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222935,1,287 /web,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222939,1,288 /web/webclient/qweb,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222943,1,289 /web/dataset/call,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222947,1,290 /web/webclient/translations,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222951,1,292 /web/dataset/call_kw/ir.ui.menu/load_menus,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222955,1,291 /mail/init_messaging,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222959,0,294 /web/dataset/call_kw/res.users/read,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222963,1,293 /web/image,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222967,2,296 /web/dataset/call_kw/res.users/systray_get_activities,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222972,1,298 /calendar/notify,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222977,1,297 /web/action/load,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222981,1,299 /web/dataset/call_kw/mail.message/load_views,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222985,0,300 /web/dataset/call_kw/ir.filters/get_filters,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222987,1,301 /web/dataset/call_kw/mail.message/message_fetch,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222990,0,302 /web/action/load,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: belastningstest-afcrm-acc.tocp.arbetsformedlingen.se,Thread Group 1-1,text,false,2071,1,1,0
+1588921222994,2232,30 /web/dataset/call_kw/res.partner/message_post,404,NOT FOUND,Thread Group 1-1,text,false,839,1,1,2230
+1588921225275,69,31 /web/dataset/call_kw/mail.message/message_format,404,NOT FOUND,Thread Group 1-1,text,false,841,1,1,69
+1588921222992,2301,30 /web/dataset/call_kw/res.partner/message_post,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,1680,1,1,2299
+1588921225350,855,32 /web/session/logout,200,OK,Thread Group 1-1,text,true,10863,1,1,146
+1588921225349,855,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,10863,1,1,146
+1588921221966,3394,265 /success.txt,,"Number of samples in transaction : 27, number of failing samples : 25",Thread Group 1-1,,false,60462,1,1,2445
