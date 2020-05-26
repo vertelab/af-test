@@ -1,0 +1,145 @@
+1590488429686,331,277 /web/database/manager,200,OK,Thread Group 1-2,text,true,50785,4,4,331
+1590488429688,332,277 /web/database/manager,200,OK,Thread Group 1-1,text,true,50785,4,4,331
+1590488429803,273,277 /web/database/manager,200,OK,Thread Group 1-3,text,true,50785,4,4,271
+1590488430035,115,279 /web,200,OK,Thread Group 1-2,text,true,4733,4,4,27
+1590488430038,121,279 /web,200,OK,Thread Group 1-1,text,true,4733,4,4,20
+1590488430078,92,279 /web,200,OK,Thread Group 1-3,text,true,4733,4,4,21
+1590488430153,79,280 /web/login,200,OK,Thread Group 1-2,text,true,4099,5,5,79
+1590488430161,96,280 /web/login,200,OK,Thread Group 1-1,text,true,4099,5,5,95
+1590488430172,89,280 /web/login,200,OK,Thread Group 1-3,text,true,4099,5,5,89
+1590488430001,266,277 /web/database/manager,200,OK,Thread Group 1-4,text,true,50785,5,5,265
+1590488430234,78,281 /web/login,200,OK,Thread Group 1-2,text,true,4099,5,5,78
+1590488430263,77,281 /web/login,200,OK,Thread Group 1-3,text,true,4099,5,5,77
+1590488430271,74,281 /web/login,200,OK,Thread Group 1-1,text,true,4099,5,5,74
+1590488430319,23,282 /web/webclient/qweb,200,OK,Thread Group 1-2,text,true,467,5,5,23
+1590488430346,16,282 /web/webclient/qweb,200,OK,Thread Group 1-3,text,true,467,5,5,16
+1590488430269,93,279 /web,200,OK,Thread Group 1-4,text,true,4733,5,5,15
+1590488430346,16,282 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,467,5,5,16
+1590488430353,19,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-2,text,true,397,5,5,19
+1590488430366,14,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-1,text,true,397,5,5,14
+1590488430363,17,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-3,text,true,397,5,5,17
+1590488430199,260,277 /web/database/manager,200,OK,Thread Group 1-5,text,true,50785,5,5,258
+1590488430365,112,280 /web/login,200,OK,Thread Group 1-4,text,true,4099,5,5,112
+1590488430462,122,279 /web,200,OK,Thread Group 1-5,text,true,4733,5,5,16
+1590488430479,106,281 /web/login,200,OK,Thread Group 1-4,text,true,4099,5,5,106
+1590488430588,14,282 /web/webclient/qweb,200,OK,Thread Group 1-4,text,true,467,5,5,14
+1590488430603,58,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-4,text,true,397,5,5,58
+1590488430587,98,280 /web/login,200,OK,Thread Group 1-5,text,true,4099,5,5,98
+1590488430373,366,285 /web/login,200,OK,Thread Group 1-2,text,true,4439,5,5,302
+1590488430688,71,281 /web/login,200,OK,Thread Group 1-5,text,true,4099,5,5,71
+1590488430381,396,285 /web/login,200,OK,Thread Group 1-1,text,true,4439,5,5,336
+1590488430382,399,285 /web/login,200,OK,Thread Group 1-3,text,true,4439,5,5,332
+1590488430743,45,286 /web,200,OK,Thread Group 1-2,text,true,3823,5,5,45
+1590488430763,26,282 /web/webclient/qweb,200,OK,Thread Group 1-5,text,true,467,5,5,26
+1590488430790,19,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-5,text,true,397,5,5,19
+1590488430789,48,287 /web,200,OK,Thread Group 1-2,text,true,3823,5,5,48
+1590488430783,61,286 /web,200,OK,Thread Group 1-3,text,true,3823,5,5,61
+1590488430778,73,286 /web,200,OK,Thread Group 1-1,text,true,3823,5,5,73
+1590488430845,65,287 /web,200,OK,Thread Group 1-3,text,true,3823,5,5,65
+1590488430852,60,287 /web,200,OK,Thread Group 1-1,text,true,3823,5,5,60
+1590488430839,120,288 /web/webclient/qweb,200,OK,Thread Group 1-2,text,true,245495,5,5,110
+1590488430664,316,285 /web/login,200,OK,Thread Group 1-4,text,true,4439,5,5,256
+1590488430962,46,289 /web/dataset/call,200,OK,Thread Group 1-2,text,true,2095,5,5,45
+1590488430912,100,288 /web/webclient/qweb,200,OK,Thread Group 1-3,text,true,245495,5,5,89
+1590488430983,93,286 /web,200,OK,Thread Group 1-4,text,true,3823,5,5,93
+1590488430913,164,288 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,245495,5,5,155
+1590488431009,72,290 /web/webclient/translations,200,OK,Thread Group 1-2,text,true,599,5,5,72
+1590488431013,68,289 /web/dataset/call,200,OK,Thread Group 1-3,text,true,2095,5,5,68
+1590488431082,23,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-2,text,true,6613,5,5,23
+1590488431082,26,290 /web/webclient/translations,200,OK,Thread Group 1-3,text,true,599,5,5,26
+1590488431083,34,289 /web/dataset/call,200,OK,Thread Group 1-1,text,true,2095,5,5,34
+1590488431083,49,287 /web,200,OK,Thread Group 1-4,text,true,3823,5,5,48
+1590488431109,25,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-3,text,true,6613,5,5,25
+1590488430810,333,285 /web/login,200,OK,Thread Group 1-5,text,true,4439,5,5,280
+1590488431118,26,290 /web/webclient/translations,200,OK,Thread Group 1-1,text,true,599,5,5,26
+1590488431145,21,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-1,text,true,6613,5,5,21
+1590488431145,56,286 /web,200,OK,Thread Group 1-5,text,true,3823,5,5,55
+1590488431107,99,291 /mail/init_messaging,200,OK,Thread Group 1-2,text,true,1263,5,5,99
+1590488431207,20,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-2,text,true,388,5,5,20
+1590488431133,99,288 /web/webclient/qweb,200,OK,Thread Group 1-4,text,true,245495,5,5,91
+1590488431202,53,287 /web,200,OK,Thread Group 1-5,text,true,3823,5,5,53
+1590488431230,53,293 /web/image,200,OK,Thread Group 1-2,bin,true,4207,5,5,53
+1590488431168,123,291 /mail/init_messaging,200,OK,Thread Group 1-1,text,true,1263,5,5,123
+1590488431136,157,291 /mail/init_messaging,200,OK,Thread Group 1-3,text,true,1263,5,5,157
+1590488431234,60,289 /web/dataset/call,200,OK,Thread Group 1-4,text,true,2095,5,5,60
+1590488431292,24,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-1,text,true,388,5,5,24
+1590488431285,33,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-2,text,true,359,5,5,33
+1590488431294,26,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-3,text,true,388,5,5,26
+1590488431296,27,290 /web/webclient/translations,200,OK,Thread Group 1-4,text,true,599,5,5,27
+1590488431324,15,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-4,text,true,6613,5,5,15
+1590488431257,103,288 /web/webclient/qweb,200,OK,Thread Group 1-5,text,true,245495,5,5,95
+1590488431317,51,293 /web/image,200,OK,Thread Group 1-1,bin,true,4207,5,5,51
+1590488431362,26,289 /web/dataset/call,200,OK,Thread Group 1-5,text,true,2095,5,5,26
+1590488431369,38,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-1,text,true,359,5,5,38
+1590488431321,89,293 /web/image,200,OK,Thread Group 1-3,bin,true,4207,5,5,89
+1590488431390,26,290 /web/webclient/translations,200,OK,Thread Group 1-5,text,true,599,5,5,26
+1590488431341,79,291 /mail/init_messaging,200,OK,Thread Group 1-4,text,true,1263,5,5,79
+1590488431408,35,298 /calendar/notify,200,OK,Thread Group 1-1,text,true,358,5,5,35
+1590488431417,26,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-5,text,true,6613,5,5,26
+1590488431412,41,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-3,text,true,359,5,5,41
+1590488431421,39,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-4,text,true,388,5,5,39
+1590488431454,49,298 /calendar/notify,200,OK,Thread Group 1-3,text,true,358,5,5,49
+1590488431446,59,297 /web/action/load,200,OK,Thread Group 1-1,text,true,959,5,5,59
+1590488431461,81,293 /web/image,200,OK,Thread Group 1-4,bin,true,4207,5,5,80
+1590488431444,115,291 /mail/init_messaging,200,OK,Thread Group 1-5,text,true,1263,5,5,115
+1590488431560,32,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-5,text,true,388,5,5,32
+1590488431506,89,297 /web/action/load,200,OK,Thread Group 1-3,text,true,959,5,5,89
+1590488431544,64,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-4,text,true,359,5,5,64
+1590488431506,105,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-1,text,true,16838,5,5,105
+1590488431320,305,298 /calendar/notify,200,OK,Thread Group 1-2,text,true,358,5,5,305
+1590488431612,21,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-1,text,true,359,5,5,21
+1590488431610,48,298 /calendar/notify,200,OK,Thread Group 1-4,text,true,358,5,5,48
+1590488431596,68,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-3,text,true,16838,5,5,68
+1590488431594,78,293 /web/image,200,OK,Thread Group 1-5,bin,true,4207,5,5,78
+1590488431634,39,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-1,text,true,359,5,5,39
+1590488431626,58,297 /web/action/load,200,OK,Thread Group 1-2,text,true,959,5,5,57
+1590488431666,26,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-3,text,true,359,5,5,25
+1590488431659,50,297 /web/action/load,200,OK,Thread Group 1-4,text,true,959,5,5,50
+1590488431674,44,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-5,text,true,359,5,5,44
+1590488431693,40,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-3,text,true,359,5,5,40
+1590488431719,45,298 /calendar/notify,200,OK,Thread Group 1-5,text,true,358,5,5,45
+1590488431674,99,302 /web/action/load,200,OK,Thread Group 1-1,text,true,1393,5,5,99
+1590488431684,92,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-2,text,true,16838,5,5,91
+1590488431734,53,302 /web/action/load,200,OK,Thread Group 1-3,text,true,1393,5,5,53
+1590488431766,37,297 /web/action/load,200,OK,Thread Group 1-5,text,true,959,5,5,37
+1590488431777,34,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-2,text,true,359,5,5,34
+1590488431710,132,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-4,text,true,16838,5,5,132
+1590488431774,77,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-1,text,true,362,5,5,77
+1590488431843,23,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-4,text,true,359,5,5,23
+1590488431812,57,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-2,text,true,359,5,5,57
+1590488431787,85,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-3,text,true,362,5,5,85
+1590488431805,72,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-5,text,true,16838,5,5,72
+1590488431870,36,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-4,text,true,359,5,5,36
+1590488431878,61,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-5,text,true,359,5,5,61
+1590488431852,107,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-1,text,true,1321,5,5,107
+1590488431774,184,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,1683,5,5,184
+1590488431869,105,302 /web/action/load,200,OK,Thread Group 1-2,text,true,1393,5,5,105
+1590488431873,111,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-3,text,true,1321,5,5,111
+1590488431787,196,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-3,,true,1683,5,5,196
+1590488431940,54,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-5,text,true,359,5,5,54
+1590488431908,112,302 /web/action/load,200,OK,Thread Group 1-4,text,true,1393,5,5,112
+1590488431975,71,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-2,text,true,362,5,5,71
+1590488431995,82,302 /web/action/load,200,OK,Thread Group 1-5,text,true,1393,5,5,82
+1590488431961,120,32 /web/session/logout,200,OK,Thread Group 1-1,text,true,5349,5,5,22
+1590488431961,120,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,5349,5,5,22
+1590488429401,2325,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-1,,true,364982,5,5,2055
+1590488431985,125,32 /web/session/logout,200,OK,Thread Group 1-3,text,true,5349,4,4,19
+1590488431984,125,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-3,,true,5349,4,4,19
+1590488429801,2267,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-3,,true,364982,4,4,2009
+1590488432047,76,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-2,text,true,1321,3,3,76
+1590488431974,147,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,1683,3,3,147
+1590488432026,99,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-4,text,true,362,3,3,99
+1590488432078,66,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-5,text,true,362,3,3,66
+1590488432125,76,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-4,text,true,1321,3,3,76
+1590488432026,175,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-4,,true,1683,3,3,175
+1590488432124,95,32 /web/session/logout,200,OK,Thread Group 1-2,text,true,5349,3,3,16
+1590488432124,95,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,5349,3,3,16
+1590488429597,2463,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-2,,true,364982,3,3,2219
+1590488432145,87,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-5,text,true,1321,2,2,87
+1590488432078,153,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-5,,true,1683,2,2,153
+1590488432203,120,32 /web/session/logout,200,OK,Thread Group 1-4,text,true,5349,2,2,20
+1590488432202,120,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-4,,true,5349,2,2,20
+1590488429997,2267,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-4,,true,364982,2,2,2018
+1590488432233,108,32 /web/session/logout,200,OK,Thread Group 1-5,text,true,5349,1,1,24
+1590488432232,108,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-5,,true,5349,1,1,24
+1590488430199,2100,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-5,,true,364982,1,1,1846

@@ -1,0 +1,29 @@
+1590474013662,318,277 /web/database/manager,200,OK,Thread Group 1-1,text,true,50785,1,1,317
+1590474013996,502,279 /web,200,OK,Thread Group 1-1,text,true,4733,1,1,20
+1590474014500,568,280 /web/login,200,OK,Thread Group 1-1,text,true,4099,1,1,568
+1590474015071,100,281 /web/login,200,OK,Thread Group 1-1,text,true,4099,1,1,100
+1590474015176,12,282 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,467,1,1,12
+1590474015190,14,283 /web/webclient/bootstrap_translations,200,OK,Thread Group 1-1,text,true,397,1,1,14
+1590474015205,1387,285 /web/login,200,OK,Thread Group 1-1,text,true,4439,1,1,234
+1590474016594,365,286 /web,200,OK,Thread Group 1-1,text,true,3823,1,1,365
+1590474016961,34,287 /web,200,OK,Thread Group 1-1,text,true,3823,1,1,34
+1590474016997,70,288 /web/webclient/qweb,200,OK,Thread Group 1-1,text,true,245495,1,1,63
+1590474017068,51,289 /web/dataset/call,200,OK,Thread Group 1-1,text,true,2095,1,1,51
+1590474017122,35,290 /web/webclient/translations,200,OK,Thread Group 1-1,text,true,599,1,1,35
+1590474017158,346,292 /web/dataset/call_kw/ir.ui.menu/load_menus,200,OK,Thread Group 1-1,text,true,6613,1,1,346
+1590474017506,126,291 /mail/init_messaging,200,OK,Thread Group 1-1,text,true,1263,1,1,126
+1590474017633,19,294 /web/dataset/call_kw/res.users/read,200,OK,Thread Group 1-1,text,true,388,1,1,19
+1590474017654,43,293 /web/image,200,OK,Thread Group 1-1,bin,true,4207,1,1,43
+1590474017699,47,296 /web/dataset/call_kw/res.users/systray_get_activities,200,OK,Thread Group 1-1,text,true,359,1,1,47
+1590474017747,21,298 /calendar/notify,200,OK,Thread Group 1-1,text,true,358,1,1,21
+1590474017769,53,297 /web/action/load,200,OK,Thread Group 1-1,text,true,959,1,1,53
+1590474017823,73,299 /web/dataset/call_kw/mail.message/load_views,200,OK,Thread Group 1-1,text,true,16838,1,1,72
+1590474017897,50,300 /web/dataset/call_kw/ir.filters/get_filters,200,OK,Thread Group 1-1,text,true,359,1,1,50
+1590474017950,45,301 /web/dataset/call_kw/mail.message/message_fetch,200,OK,Thread Group 1-1,text,true,359,1,1,45
+1590474017998,95,302 /web/action/load,200,OK,Thread Group 1-1,text,true,1393,1,1,95
+1590474018095,74,30 /web/dataset/call_kw/res.partner/message_post,200,OK,Thread Group 1-1,text,true,361,1,1,74
+1590474018170,88,31 /web/dataset/call_kw/mail.message/message_format,200,OK,Thread Group 1-1,text,true,1297,1,1,88
+1590474018094,162,30 /web/dataset/call_kw/res.partner/message_post,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,1658,1,1,162
+1590474018260,89,32 /web/session/logout,200,OK,Thread Group 1-1,text,true,5349,1,1,16
+1590474018259,89,32 /web/session/logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,5349,1,1,16
+1590474013294,4625,265 /success.txt,200,"Number of samples in transaction : 27, number of failing samples : 0",Thread Group 1-1,,true,364957,1,1,2908
