@@ -9,7 +9,7 @@ function do_test() {
 
 #threads=1   ; rampup=1   ;  loops=1   ; do_test
 #threads=5   ; rampup=1   ;  loops=1   ; do_test
-threads=10  ; rampup=1   ;  loops=10  ; do_test
+#threads=10  ; rampup=1   ;  loops=10  ; do_test
 #threads=50  ; rampup=1   ;  loops=10  ; do_test
 #threads=65 ; rampup=60   ;  loops=10  ; do_test
 #threads=70 ; rampup=60   ;  loops=10  ; do_test
