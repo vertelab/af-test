@@ -1,79 +1,59 @@
-2020/05/26 12:20:28 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: Loading user properties from: /usr/share/jmeter/bin/user.properties 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: Loading system properties from: /usr/share/jmeter/bin/system.properties 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: Version 2.13.20170723 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: java.version=11.0.7 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: java.vm.name=OpenJDK 64-Bit Server VM 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: os.name=Linux 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: os.arch=amd64 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: os.version=5.3.0-51-generic 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: user.dir  =/home/hollk/repos/af-test/JMeter/POD 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: PWD       =/home/hollk/repos/af-test/JMeter/POD 
-2020/05/26 12:20:28 INFO  - jmeter.JMeter: IP: 127.0.0.1 Name: 89-20 FullName: 89-20.wt.ams.se 
-2020/05/26 12:20:28 INFO  - jmeter.services.FileServer: Default base='/home/hollk/repos/af-test/JMeter/POD' 
-2020/05/26 12:20:28 INFO  - jmeter.services.FileServer: Set new base='/home/hollk/repos/af-test/JMeter/POD' 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2020/05/26 12:20:28 INFO  - jmeter.save.SaveService: Loading file: pod_kontacts2_5_1.jmx 
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2020/05/26 12:20:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2020/05/26 12:20:29 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2020/05/26 12:20:29 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/share/jmeter/bin/proxyserver.jks 
-2020/05/26 12:20:29 INFO  - jmeter.JMeter: Creating summariser <summary> 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2020/05/26 12:20:29 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2020/05/26 12:20:29 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2020/05/26 12:20:29 INFO  - jmeter.JMeter: Running test (1590488429313) 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2020/05/26 12:20:29 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
-2020/05/26 12:20:29 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2020/05/26 12:20:29 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2020/05/26 12:20:29 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
-2020/05/26 12:20:29 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = 89-20 
-2020/05/26 12:20:29 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2020/05/26 12:20:29 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
-2020/05/26 12:20:29 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
-2020/05/26 12:20:29 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
-2020/05/26 12:20:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
-2020/05/26 12:20:30 INFO  - jmeter.reporters.Summariser: summary +      1 in     1s =    1.4/s Avg:   331 Min:   331 Max:   331 Err:     0 (0.00%) Active: 4 Started: 4 Finished: 0 
-2020/05/26 12:20:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-3 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-2 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-4 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-5 
-2020/05/26 12:20:32 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
-2020/05/26 12:20:32 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2020/05/26 12:20:32 INFO  - jmeter.reporters.Summariser: summary +    144 in   2.3s =   62.2/s Avg:   166 Min:    14 Max:  2463 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5 
-2020/05/26 12:20:32 INFO  - jmeter.reporters.Summariser: summary =    145 in     3s =   47.8/s Avg:   167 Min:    14 Max:  2463 Err:     0 (0.00%) 
+2020-05-27 15:00:17,033 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2020-05-27 15:00:17,051 INFO o.a.j.JMeter: Loading user properties from: /home/hollk/jmeter-5.3/bin/user.properties
+2020-05-27 15:00:17,052 INFO o.a.j.JMeter: Loading system properties from: /home/hollk/jmeter-5.3/bin/system.properties
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: Version 5.3
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: os.name=Linux
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: os.arch=amd64
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: os.version=5.3.0-53-generic
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-27 15:00:17,053 INFO o.a.j.JMeter: Max memory     =919076864
+2020-05-27 15:00:17,054 INFO o.a.j.JMeter: Available Processors =2
+2020-05-27 15:00:17,067 INFO o.a.j.JMeter: Default Locale=English (United States)
+2020-05-27 15:00:17,068 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2020-05-27 15:00:17,068 INFO o.a.j.JMeter: JMeterHome=/home/hollk/jmeter-5.3
+2020-05-27 15:00:17,068 INFO o.a.j.JMeter: user.dir  =/home/hollk/repos/af-test/JMeter/POD
+2020-05-27 15:00:17,068 INFO o.a.j.JMeter: PWD       =/home/hollk/repos/af-test/JMeter/POD
+2020-05-27 15:00:17,069 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: 89-20 FullName: 89-20.wt.ams.se
+2020-05-27 15:00:17,086 INFO o.a.j.s.FileServer: Default base='/home/hollk/repos/af-test/JMeter/POD'
+2020-05-27 15:00:17,105 INFO o.a.j.s.FileServer: Set new base='/home/hollk/repos/af-test/JMeter/POD'
+2020-05-27 15:00:17,294 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-27 15:00:17,323 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-27 15:00:17,328 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-27 15:00:17,333 INFO o.a.j.s.SaveService: Loading file: pod_kontacts2_1_1.jmx
+2020-05-27 15:00:17,381 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-05-27 15:00:17,403 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-27 15:00:17,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-27 15:00:17,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-27 15:00:17,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-05-27 15:00:17,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-05-27 15:00:17,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-05-27 15:00:17,661 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-05-27 15:00:17,662 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/hollk/jmeter-5.3/bin/proxyserver.jks
+2020-05-27 15:00:17,715 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-27 15:00:17,724 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-27 15:00:17,728 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-27 15:00:17,728 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-27 15:00:17,734 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-27 15:00:17,735 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-27 15:00:18,205 INFO o.a.j.JMeter: Running test (1590584418205)
+2020-05-27 15:00:18,270 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-05-27 15:00:18,270 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-05-27 15:00:18,270 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-27 15:00:18,270 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-05-27 15:00:18,283 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-27 15:00:18,283 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-27 15:00:18,289 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-27 15:00:18,289 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-27 15:00:18,290 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-27 15:00:18,290 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-27 15:00:18,290 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-05-27 15:00:18,308 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 89-20
+2020-05-27 15:00:18,313 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-05-27 15:00:23,493 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-05-27 15:00:23,493 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-05-27 15:00:23,495 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-27 15:00:23,498 INFO o.a.j.r.Summariser: summary =     26 in 00:00:05 =    4.9/s Avg:   195 Min:    14 Max:  1346 Err:     0 (0.00%)
