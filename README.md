@@ -1,11 +1,11 @@
 # af-test
-**Installation local** <br/>
+** Selenium Installation local** <br/>
 sudo apt-get -y install google-chrome-stable <br/>
 pip install selenium <br/>
 pip install Faker <br/>
 Put webdriver in PATH <br/>
 <br/>
-**Installation on Linux VM** <br/>
+**Selenium Installation on Linux VM** <br/>
 sudo apt-get update <br/>
 sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4 <br/>
 sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add <br/>
